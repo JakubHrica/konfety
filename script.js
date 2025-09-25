@@ -1,6 +1,6 @@
 // Dátum a čas, do ktorého odpočítavame
 // Nastav si vlastný dátum a čas
-const countdownDate = new Date("Sep 25, 2025 20:00:00").getTime();
+const countdownDate = new Date().getTime() + 60 * 1000;
 
 const countdownDiv = document.getElementById('countdown');
 const countdownContainer = document.getElementById('countdown-container');
